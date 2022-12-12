@@ -1,0 +1,83 @@
+/*
+* Author name: Nicolas Dunfield
+* Last updated December 7th 2022
+* Classes Style Sheet
+ */
+
+.title1{
+    text-align: center;
+    font-size: 2.5em;
+    border: 2px solid rosybrown;
+    color: #A6192E;
+    width: 50%;
+    margin:2% 20%;
+    background-color: papayawhip;
+}
+@media screen and (max-width: 600px){
+    .title1{
+        font-size: 2em;
+        width: 75%;
+        margin:2% 12%;
+    }
+}
+@media Screen and (max-width: 400px){
+    .title1{
+        font-size: 1.5em;
+    }
+}
+.title2{
+    text-align: left;
+    background-color: papayawhip;
+    padding:0 2%;
+    margin:2%;
+    font-size: 2em;
+    width: 66%;
+    border: 3px double black;
+    color: #A6192E;
+}
+@media screen and (max-width: 600px){
+    .title2{
+        font-size: 1em;
+    }
+}
+.text1{
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 1.5em;
+    padding:3%;
+}
+.text2{
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 1.0em;
+    padding:3%;
+}
+@media Screen and (max-width: 600px){
+    .text2{
+        font-size: 0.75em;
+    }
+}
+.spacer {
+    padding: 2% 50%
+}
+.linebreak{
+    border-bottom: 3px solid rgba(184, 134, 11, 0.9);
+    width: 90%;
+    margin:2%;
+}
+.contenthold{
+    margin: 1% 20%;
+    font-size: 3em;
+    border: black 1px solid;
+    color: #8604aa;
+    padding: 0 10%;
+    background-color: papayawhip;
+}
+@media Screen and (max-width: 600px){
+    .contenthold{
+        font-size: 2em;
+    }
+}
+@media Screen and (max-width: 400px){
+    .contenthold{
+        font-size: 1.5em;
+    }
+}

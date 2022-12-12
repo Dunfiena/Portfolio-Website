@@ -1,0 +1,62 @@
+/*
+* Author name: Nicolas Dunfield
+* Last updated December 7th 2022
+* Contact page specific Style Sheet
+ */
+.contactbody{
+    height: auto;
+    margin:1% 1%;
+}
+.boxes{
+    width: 90%;
+    margin:2%;
+    padding: 2% 0;
+    display: flex;
+    flex-direction: column;
+
+}
+.box1{
+    background-color: ghostwhite;
+    margin: 3% 2% 3% 4%;
+    padding:1% 2%;
+    width: 86%;
+    border:1px solid black;
+    box-shadow: 2px 3px #222222;
+    display: flex;
+    flex-direction: row;
+    float:left;
+}
+.box2{
+    background-color: whitesmoke;
+    margin: 3% 2% 3% 4%;
+    padding:1% 2%;
+    width: 86%;
+    border:1px solid black;
+    box-shadow: 2px 3px #222222;
+    display: flex;
+    float:right;
+}
+@media Screen and (min-width: 400px){
+    .box1{
+        width: 75%;
+        padding: 5%;
+        margin: 3%;
+    }
+    .box2{
+        width: 75%;
+        padding: 5%;
+        margin: 3%;
+    }
+}
+@media screen and (min-width: 600px){
+    .box1{
+        margin: 2% 10%;
+        padding:1% 10%;
+        width: 60%;
+    }
+    .box2{
+        margin: 2% 10%;
+        padding:1% 10%;
+        width: 60%;
+    }
+}

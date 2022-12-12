@@ -1,0 +1,25 @@
+/*
+* Author name: Nicolas Dunfield
+* Last updated December 7th 2022
+* Tags Style Sheet
+ */
+body{
+    font-family: "Merriweather", serif;
+    margin:0;
+    background-color: rgba(194, 84, 20, 0.2);
+    background-image: url("../../Images/gear1.png");
+    background-size: 10%;
+}
+.bodyinside{
+    background-image:url("../../Images/leaf.png");
+    background-size: 10%;
+    color: #8604aa;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color:white;
+    text-decoration: none;
+}

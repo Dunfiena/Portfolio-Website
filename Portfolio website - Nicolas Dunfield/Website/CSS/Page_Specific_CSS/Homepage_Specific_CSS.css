@@ -1,0 +1,41 @@
+/*
+* Author name: Nicolas Dunfield
+* Last updated December 7th 2022
+* Home page specific Style Sheet
+ */
+.Mainbody{
+background-image: url("../../Images/background editted.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: max-content;
+}
+.Name{
+    width: 10%;
+    font-size: 3em;
+    color: #A6192E;
+    padding: 10% 3% 0 5%;
+}
+.Name2{
+    width: 10%;
+    font-size: 2.5em;
+    color: rgba(166, 25, 46, 0.8);
+    padding: 0 3% 2% 8%;
+}
+
+.Description{
+    width:33%;
+    font-size: 1em;
+    color: whitesmoke;
+    background-color: rgba(112, 128, 144, 0.7);
+    padding:2% 2% 4% 2%;
+    margin-left:1%;
+}
+@media screen and (min-width: 700px){
+    .Description{
+        width:20%;
+    }
+}
+.span{
+    text-align: center;
+    word-spacing: 1px;
+}

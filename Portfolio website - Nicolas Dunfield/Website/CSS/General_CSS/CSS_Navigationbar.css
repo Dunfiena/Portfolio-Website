@@ -1,0 +1,136 @@
+/*
+* Author name: Nicolas Dunfield
+* Last updated December 7th 2022
+* Navigation Bar Style Sheet
+ */
+.nav1{
+    background-color: #8604aa;
+    position: relative;
+    display: inline-block;
+    float:right;
+}
+.nav2{
+    background-color: slategrey;
+    position: relative;
+    display: inline-block;
+    float:right;
+}
+.nav3{
+    background-color: slategrey;
+    position: relative;
+    display: inline-block;
+    float:right;
+}
+.nav4{
+    background-color: slategrey;
+    position: relative;
+    display: inline-block;
+    float:right;
+}
+.nav5{
+    background-color: slategrey;
+    position: relative;
+    display: inline-block;
+    float:right;
+}
+.Dropbutton{
+    background-color: rgba(134, 4, 170, 0.2);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+.Dropbutton1 {
+    background-color: rgba(134, 4, 170, 0.2);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    display: none;
+}
+.Dropbutton2 {
+    background-color: rgba(134, 4, 170, 0.2);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    display: none;
+}
+.Dropbutton3 {
+    background-color: rgba(134, 4, 170, 0.2);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    display: none;
+}
+.Dropbutton4 {
+    background-color: rgba(134, 4, 170, 0.2);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    display: none;
+}
+.DropContent1{
+    display: none;
+    position: absolute;
+    background-color: rgba(112, 128, 144, 0.7);
+    min-width: 160px;
+    z-index: 1;
+    text-align: center;
+    font-size: 1em;
+    padding: 3%;
+    left:auto;
+    right:0;
+}
+.DropContent2{
+    display: none;
+    position: absolute;
+    background-color: rgba(112, 128, 144, 0.7);
+    min-width: 160px;
+    z-index: 1;
+    text-align: center;
+    font-size: 1em;
+    padding: 3%;
+}
+.DropContent3 {
+    display: none;
+    position: absolute;
+    background-color: rgba(112, 128, 144, 0.7);
+    min-width: 160px;
+    z-index: 1;
+    text-align: center;
+    font-size: 1em;
+    padding: 3%;
+}
+.DropContent4 {
+     display: none;
+     position: absolute;
+     background-color: rgba(112, 128, 144, 0.7);
+     min-width: 160px;
+     z-index: 1;
+     text-align: center;
+     font-size: 1em;
+     padding: 3%;
+ }
+.nav1:hover .Dropbutton1{
+    display: block;}
+.nav1:hover .Dropbutton2{
+    display: block;}
+.nav1:hover .Dropbutton3{
+    display: block;}
+.nav1:hover .Dropbutton4{
+    display: block;}
+.nav2:hover .DropContent1{
+    display: flex;
+    flex-direction: column;}
+.nav3:hover .DropContent2{
+    display: flex;
+    flex-direction: column;}
+.nav4:hover .DropContent3{
+    display: flex;
+    flex-direction: column;}
+.nav5:hover .DropContent4{
+    display: flex;
+    flex-direction: column;}

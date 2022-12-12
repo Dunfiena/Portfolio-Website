@@ -1,0 +1,33 @@
+/*
+* Author name: Nicolas Dunfield
+* Last updated December 7th 2022
+* Certificate page specific Style Sheet
+ */
+.Certificatebox{
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+    width:80%;
+    background-color: white;
+    border:1px solid black;
+    box-shadow: 2px 3px #222222;
+}
+.Certificatebody{
+    width: 96%;
+    margin: 2%;
+}
+.CertificateimgS{
+    width:75%;
+    padding: 2%;
+    border: 1px rgba(192, 192, 192, 0.2) solid;
+}
+.CertificateimgO{
+    width:75%;
+    padding: 2%;
+    border: 1px rgba(192, 192, 192, 0.2) solid;
+}
+.CertificateimgW{
+    width:75%;
+    padding: 2%;
+    border: 1px rgba(192, 192, 192, 0.2) solid;
+}

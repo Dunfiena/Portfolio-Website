@@ -1,0 +1,59 @@
+/*
+* Author name: Nicolas Dunfield
+* Last updated December 7th 2022
+* Skills page specific Style Sheet
+ */
+.Skillsbody{
+    margin:2%;
+    display: flex;
+    flex-direction: row;
+    background-color:mistyrose;
+}
+.leftside{
+    width:48%;
+    padding: 2%;
+    float: left;
+}
+.rightsidehtml{
+    width:48%;
+    padding: 2%;
+    overflow:hidden;
+}
+.rightsidejava{
+    width:48%;
+    padding: 2%;
+    overflow:hidden;
+}
+.rightsideSQL{
+    width:48%;
+    padding: 2%;
+    overflow:hidden;
+
+}
+@media screen and (max-width: 600px){
+    .Skillsbody{
+        flex-direction: column;
+    }
+    .leftside{
+        width: 90%;
+    }
+    .rightsidehtml{
+        width: 94%;
+        height: auto;
+        padding: 2%;
+        overflow:hidden;
+    }
+    .rightsidejava{
+        width: 94%;
+        height: auto;
+        padding: 2%;
+        overflow:hidden;
+    }
+    .rightsideSQL{
+        width: 94%;
+        height: auto;
+        padding: 2%;
+        overflow:hidden;
+    }
+
+}
